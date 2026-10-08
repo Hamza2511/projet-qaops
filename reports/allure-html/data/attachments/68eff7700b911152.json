@@ -1,0 +1,11 @@
+{
+  "recorded_at_utc": "2026-10-06T08:10:41.501590+00:00",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "browser": "chrome",
+  "browser_version": "153.0.8010.50",
+  "chromedriver_version": "153.0.8010.52",
+  "mode": "local",
+  "headless": true,
+  "chrome_sandbox_disabled_by_fixture": false
+}

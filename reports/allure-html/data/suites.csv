@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2584","UI-04 | Alerte JavaScript et nouvelle fenêtre","tests.ui","Tue Oct 06 09:10:18 WEST 2026","passed","Tue Oct 06 09:10:21 WEST 2026","","test_formy","",""
+"","10151","UI-02 | Boutons et menu","tests.ui","Tue Oct 06 09:09:54 WEST 2026","passed","Tue Oct 06 09:10:05 WEST 2026","","test_formy","",""
+"","1645","UI-06 | Entrer dans un iframe puis revenir au document","tests.ui","Tue Oct 06 09:10:41 WEST 2026","passed","Tue Oct 06 09:10:43 WEST 2026","","test_local","",""
+"","14158","UI-01 | Inscription, radio et liste déroulante","tests.ui","Tue Oct 06 09:09:30 WEST 2026","passed","Tue Oct 06 09:09:44 WEST 2026","","test_formy","",""
+"","2517","UI-05 | Connexion locale : refus puis acceptation","tests.ui","Tue Oct 06 09:10:33 WEST 2026","passed","Tue Oct 06 09:10:36 WEST 2026","","test_local","",""
+"","4125","UI-03 | Ouvrir et fermer une fenêtre modale","tests.ui","Tue Oct 06 09:10:09 WEST 2026","passed","Tue Oct 06 09:10:13 WEST 2026","","test_formy","",""

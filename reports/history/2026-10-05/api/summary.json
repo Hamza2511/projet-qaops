@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-05T16:09:11.016Z",
+  "target": "https://reqres.in/api",
+  "stats": {
+    "iterations": {
+      "total": 1,
+      "pending": 0,
+      "failed": 0
+    },
+    "items": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "scripts": {
+      "total": 8,
+      "pending": 0,
+      "failed": 0
+    },
+    "prerequests": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "requests": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "tests": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "assertions": {
+      "total": 14,
+      "pending": 0,
+      "failed": 0
+    },
+    "testScripts": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "prerequestScripts": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    }
+  },
+  "failures": []
+}

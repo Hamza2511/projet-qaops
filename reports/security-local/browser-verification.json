@@ -1,0 +1,8 @@
+{
+  "verified_at_utc": "2026-10-06T23:24:46.214Z",
+  "payload": "<script>addEventListener('DOMContentLoaded',()=>document.getElementById('execution').textContent='XSS exécutée : preuve locale QAOps')</script>",
+  "vulnerable_text": "XSS exécutée : preuve locale QAOps",
+  "fixed_text": "Le JavaScript injecté n’a pas été exécuté.",
+  "method": "Real browser navigation and visible DOM text inspected",
+  "scope": "loopback-only; not Formy"
+}

@@ -1,0 +1,89 @@
+1183 [main] INFO  org.parosproxy.paros.Constant - Copying default configuration to C:\Users\PC\Documents\Codex\2026-10-05\f\work\zap-home-final\config.xml
+1469 [main] INFO  org.parosproxy.paros.Constant - Creating directory C:\Users\PC\Documents\Codex\2026-10-05\f\work\zap-home-final\session
+1471 [main] INFO  org.parosproxy.paros.Constant - Creating directory C:\Users\PC\Documents\Codex\2026-10-05\f\work\zap-home-final\dirbuster
+1472 [main] INFO  org.parosproxy.paros.Constant - Creating directory C:\Users\PC\Documents\Codex\2026-10-05\f\work\zap-home-final\fuzzers
+1473 [main] INFO  org.parosproxy.paros.Constant - Creating directory C:\Users\PC\Documents\Codex\2026-10-05\f\work\zap-home-final\plugin
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0xffffffff80000001. Windows RegCreateKeyEx(...) returned error code 5.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs at root 0xffffffff80000001.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp at root 0xffffffff80000001.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 05, 2026 5:45:22 PM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Job passiveScan-config set scanOnlyInScope = true
+Job passiveScan-config set maxAlertsPerRule = 10
+Job spider set context = Formy
+Job spider set url = https://formy-project.herokuapp.com
+Job spider set maxDuration = 1
+Job spider set maxDepth = 2
+Unrecognised parameter for job spider : numberOfThreads
+Job spider set processForm = false
+Job spider set postForm = false
+Job passiveScan-wait set maxDuration = 3
+Job report set template = traditional-html
+Job report set reportDir = ../reports/security
+Job report set reportFile = zap.html
+Job report set reportTitle = QAOps - analyse passive de Formy
+Job report set template = traditional-json
+Job report set reportDir = ../reports/security
+Job report set reportFile = zap.json
+Job exitStatus set errorLevel = High
+Job exitStatus set warnLevel = Medium
+Job exitStatus set okExitValue = 0
+Job exitStatus set errorExitValue = 1
+Job exitStatus set warnExitValue = 2
+Job passiveScan-config started
+Job passiveScan-config finished, time taken: 00:00:00
+Job spider started
+Job spider requesting URL https://formy-project.herokuapp.com
+Job spider found 103 URLs
+Job spider finished, time taken: 00:00:04
+Job passiveScan-wait started
+Job passiveScan-wait finished, time taken: 00:00:03
+Job report started
+Job report generated report C:\Users\PC\Documents\Codex\2026-10-05\f\outputs\projet-qaops\security\..\reports\security\zap.html
+Job report finished, time taken: 00:00:00
+Job report started
+Job report generated report C:\Users\PC\Documents\Codex\2026-10-05\f\outputs\projet-qaops\security\..\reports\security\zap.json
+Job report finished, time taken: 00:00:00
+Job exitStatus started
+An alert has been raised with a risk of at least: Medium
+Job exitStatus finished, time taken: 00:00:00
+Automation plan warnings:
+	Unrecognised parameter for job spider : numberOfThreads
+	An alert has been raised with a risk of at least: Medium

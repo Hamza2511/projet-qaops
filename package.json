@@ -1,0 +1,14 @@
+{
+  "name": "projet-qaops",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:api": "node scripts/run-api.cjs",
+    "test:api:negative": "node scripts/run-api.cjs --negative"
+  },
+  "devDependencies": {
+    "newman": "6.2.1",
+    "newman-reporter-htmlextra": "1.23.1",
+    "allure-commandline": "2.32.0"
+  }
+}

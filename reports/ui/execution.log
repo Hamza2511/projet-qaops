@@ -1,0 +1,13 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-8.3.4, pluggy-1.6.0
+rootdir: C:\Users\PC\Documents\Codex\2026-10-05\referenced-chatgpt-conversation-this-is-an\outputs\projet-qaops
+configfile: pytest.ini
+testpaths: tests/ui
+plugins: allure-pytest-2.13.5
+collected 6 items
+
+tests\ui\test_formy.py ....                                              [ 66%]
+tests\ui\test_local.py ..                                                [100%]
+
+- generated xml file: C:\Users\PC\Documents\Codex\2026-10-05\referenced-chatgpt-conversation-this-is-an\outputs\projet-qaops\reports\ui\junit.xml -
+======================== 6 passed in 78.73s (0:01:18) =========================

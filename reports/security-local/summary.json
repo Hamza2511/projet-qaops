@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-10-06T23:22:24.885198+00:00",
+  "target": "loopback-only educational fixture",
+  "zap_exit_code": 0,
+  "xss_rule": 40012,
+  "vulnerable_detected": true,
+  "fixed_xss_detected": false,
+  "xss_urls": [
+    "http://127.0.0.1:18094/vulnerable?q=%3C%2Fp%3E%3CscrIpt%3Ealert%281%29%3B%3C%2FscRipt%3E%3Cp%3E"
+  ],
+  "limitation": "This controlled example does not demonstrate an exploitable XSS on Formy."
+}

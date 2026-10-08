@@ -1,0 +1,45 @@
+env:
+  contexts:
+    - name: Formy
+      urls:
+        - https://formy-project.herokuapp.com
+      includePaths:
+        - https://formy-project\.herokuapp\.com/.*
+  parameters:
+    failOnError: true
+    failOnWarning: false
+    progressToStdout: true
+jobs:
+  - type: passiveScan-config
+    parameters:
+      scanOnlyInScope: true
+      maxAlertsPerRule: 10
+  - type: spider
+    parameters:
+      context: Formy
+      url: https://formy-project.herokuapp.com
+      maxDuration: 1
+      maxDepth: 2
+      processForm: false
+      postForm: false
+  - type: passiveScan-wait
+    parameters:
+      maxDuration: 3
+  - type: report
+    parameters:
+      template: traditional-html
+      reportDir: ../reports/security
+      reportFile: zap.html
+      reportTitle: QAOps - analyse passive de Formy
+  - type: report
+    parameters:
+      template: traditional-json
+      reportDir: ../reports/security
+      reportFile: zap.json
+  - type: exitStatus
+    parameters:
+      errorLevel: High
+      warnLevel: Medium
+      okExitValue: 0
+      errorExitValue: 1
+      warnExitValue: 2

@@ -1,0 +1,82 @@
+{
+  "env": {
+    "contexts": [
+      {
+        "name": "QAOpsLocal",
+        "urls": [
+          "http://127.0.0.1:18094"
+        ],
+        "includePaths": [
+          "http://127\\.0\\.0\\.1:18094/(vulnerable|fixed).*"
+        ]
+      }
+    ],
+    "parameters": {
+      "failOnError": true,
+      "failOnWarning": false,
+      "progressToStdout": true
+    }
+  },
+  "jobs": [
+    {
+      "type": "requestor",
+      "requests": [
+        {
+          "url": "http://127.0.0.1:18094/vulnerable?q=Sara",
+          "method": "GET",
+          "responseCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:18094/fixed?q=Sara",
+          "method": "GET",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "type": "activeScan",
+      "parameters": {
+        "context": "QAOpsLocal",
+        "maxRuleDurationInMins": 1,
+        "maxScanDurationInMins": 2,
+        "threadPerHost": 1,
+        "delayInMs": 20
+      },
+      "policyDefinition": {
+        "defaultStrength": "Medium",
+        "defaultThreshold": "Off",
+        "rules": [
+          {
+            "id": 40012,
+            "strength": "Medium",
+            "threshold": "Medium"
+          }
+        ]
+      }
+    },
+    {
+      "type": "passiveScan-wait",
+      "parameters": {
+        "maxDuration": 1
+      }
+    },
+    {
+      "type": "report",
+      "parameters": {
+        "template": "traditional-json",
+        "reportDir": "C:\\Users\\PC\\Documents\\Codex\\2026-10-05\\referenced-chatgpt-conversation-this-is-an\\outputs\\projet-qaops\\reports\\security-local",
+        "reportFile": "zap-local.json",
+        "reportTitle": "QAOps - XSS local avant et après correction"
+      }
+    },
+    {
+      "type": "report",
+      "parameters": {
+        "template": "traditional-html",
+        "reportDir": "C:\\Users\\PC\\Documents\\Codex\\2026-10-05\\referenced-chatgpt-conversation-this-is-an\\outputs\\projet-qaops\\reports\\security-local",
+        "reportFile": "zap-local.html",
+        "reportTitle": "QAOps - XSS local avant et après correction"
+      }
+    }
+  ]
+}

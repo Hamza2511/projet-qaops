@@ -1,0 +1,60 @@
+
+> projet-qaops@1.0.0 test:api
+> node scripts/run-api.cjs
+
+(node:59028) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+newman
+
+QAOps | Reqres CRUD
+
+→ API-01 | GET /users?page=2
+  GET https://reqres.in/api/users?page=2 [200 OK, 3.5kB, 450ms]
+  √  Statut 200
+  √  Content-Type JSON
+  √  Schéma JSON utilisateurs
+  √  Page et taille cohérentes
+
+→ API-02 | POST /users
+  POST https://reqres.in/api/users [201 Created, 2.4kB, 245ms]
+  √  Statut 201
+  √  Content-Type JSON
+  √  Schéma JSON réponse
+  √  Création et identifiant
+
+→ API-03 | PUT /users/2
+  PUT https://reqres.in/api/users/2 [200 OK, 2.41kB, 166ms]
+  √  Statut 200
+  √  Content-Type JSON
+  √  Schéma JSON réponse
+  √  Mise à jour
+
+→ API-04 | DELETE /users/2
+  DELETE https://reqres.in/api/users/2 [204 No Content, 1.83kB, 107ms]
+  √  Statut 204
+  √  Corps vide
+
+┌─────────────────────────┬─────────────────────┬────────────────────┐
+│                         │            executed │             failed │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│              iterations │                   1 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│                requests │                   4 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│            test-scripts │                   4 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│      prerequest-scripts │                   4 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│              assertions │                  14 │                  0 │
+├─────────────────────────┴─────────────────────┴────────────────────┤
+│ total run duration: 3.9s                                           │
+├────────────────────────────────────────────────────────────────────┤
+│ total data received: 2.51kB (approx)                               │
+├────────────────────────────────────────────────────────────────────┤
+│ average response time: 242ms [min: 107ms, max: 450ms, s.d.: 129ms] │
+└────────────────────────────────────────────────────────────────────┘
+npm notice
+npm notice New minor version of npm available! 11.6.2 -> 11.21.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.21.0
+npm notice To update run: npm install -g npm@11.21.0
+npm notice

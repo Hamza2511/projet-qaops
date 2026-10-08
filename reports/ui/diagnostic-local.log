@@ -1,0 +1,10 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-8.3.4, pluggy-1.6.0
+rootdir: C:\Users\PC\Documents\Codex\2026-10-05\referenced-chatgpt-conversation-this-is-an\outputs\projet-qaops
+configfile: pytest.ini
+plugins: allure-pytest-2.13.5
+collected 1 item
+
+outputs\projet-qaops\tests\ui\test_local.py .                            [100%]
+
+============================== 1 passed in 6.57s ==============================

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="QAOps | Extensions négatives et limites Reqres" tests="4" time="0.000">
+  <testsuite name="API-N01 | Utilisateur inexistant" id="f5c1e530-c6f5-45bc-8b2d-5be2f8f6a1c6" timestamp="2026-10-06T23:26:12.393Z" tests="2" failures="2" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: AggregateError [EACCES]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+
+---
+testScriptError: "undefined" is not valid JSON
+---
+]]></system-err>
+    <testcase name="Statut attendu 404" time="0.000" classname="ApiN01UtilisateurInexistant">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f82b4fe3-3d9e-498b-8b32-5dc3e7d1b265.]]>
+        <![CDATA[Collection name: QAOps | Extensions négatives et limites Reqres.]]>
+        <![CDATA[Request name: API-N01 | Utilisateur inexistant.]]>
+        <![CDATA[Test description: Statut attendu 404.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Type JSON" time="0.000" classname="ApiN01UtilisateurInexistant">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f82b4fe3-3d9e-498b-8b32-5dc3e7d1b265.]]>
+        <![CDATA[Collection name: QAOps | Extensions négatives et limites Reqres.]]>
+        <![CDATA[Request name: API-N01 | Utilisateur inexistant.]]>
+        <![CDATA[Test description: Type JSON.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:2:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="API-N02 | Page au-delà de la dernière page" id="184162a5-7bae-4d0b-a7b0-fe611e07137b" timestamp="2026-10-06T23:26:12.393Z" tests="2" failures="2" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: AggregateError [EACCES]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+
+---
+testScriptError: "undefined" is not valid JSON
+---
+]]></system-err>
+    <testcase name="Statut attendu 200" time="0.000" classname="ApiN02PageAuDelaDeLaDernierePage">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f82b4fe3-3d9e-498b-8b32-5dc3e7d1b265.]]>
+        <![CDATA[Collection name: QAOps | Extensions négatives et limites Reqres.]]>
+        <![CDATA[Request name: API-N02 | Page au-delà de la dernière page.]]>
+        <![CDATA[Test description: Statut attendu 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Type JSON" time="0.000" classname="ApiN02PageAuDelaDeLaDernierePage">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f82b4fe3-3d9e-498b-8b32-5dc3e7d1b265.]]>
+        <![CDATA[Collection name: QAOps | Extensions négatives et limites Reqres.]]>
+        <![CDATA[Request name: API-N02 | Page au-delà de la dernière page.]]>
+        <![CDATA[Test description: Type JSON.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:2:2).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="API-N03 | Connexion sans mot de passe" id="2353375c-c673-436a-8293-ecf23a1ae6f4" timestamp="2026-10-06T23:26:12.393Z" tests="2" failures="2" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: AggregateError [EACCES]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+
+---
+testScriptError: "undefined" is not valid JSON
+---
+]]></system-err>
+    <testcase name="Statut attendu 400" time="0.000" classname="ApiN03ConnexionSansMotDePasse">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f82b4fe3-3d9e-498b-8b32-5dc3e7d1b265.]]>
+        <![CDATA[Collection name: QAOps | Extensions négatives et limites Reqres.]]>
+        <![CDATA[Request name: API-N03 | Connexion sans mot de passe.]]>
+        <![CDATA[Test description: Statut attendu 400.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Type JSON" time="0.000" classname="ApiN03ConnexionSansMotDePasse">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f82b4fe3-3d9e-498b-8b32-5dc3e7d1b265.]]>
+        <![CDATA[Collection name: QAOps | Extensions négatives et limites Reqres.]]>
+        <![CDATA[Request name: API-N03 | Connexion sans mot de passe.]]>
+        <![CDATA[Test description: Type JSON.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:2:3).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="API-N04 | Inscription sans mot de passe" id="e317c69d-dfe1-4197-a0a0-1d9f28c01d9e" timestamp="2026-10-06T23:26:12.393Z" tests="2" failures="2" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: AggregateError [EACCES]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+
+---
+testScriptError: "undefined" is not valid JSON
+---
+]]></system-err>
+    <testcase name="Statut attendu 400" time="0.000" classname="ApiN04InscriptionSansMotDePasse">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f82b4fe3-3d9e-498b-8b32-5dc3e7d1b265.]]>
+        <![CDATA[Collection name: QAOps | Extensions négatives et limites Reqres.]]>
+        <![CDATA[Request name: API-N04 | Inscription sans mot de passe.]]>
+        <![CDATA[Test description: Statut attendu 400.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Type JSON" time="0.000" classname="ApiN04InscriptionSansMotDePasse">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f82b4fe3-3d9e-498b-8b32-5dc3e7d1b265.]]>
+        <![CDATA[Collection name: QAOps | Extensions négatives et limites Reqres.]]>
+        <![CDATA[Request name: API-N04 | Inscription sans mot de passe.]]>
+        <![CDATA[Test description: Type JSON.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:2:4).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>

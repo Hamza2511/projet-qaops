@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-06T23:26:16.405Z",
+  "target": "https://reqres.in/api",
+  "stats": {
+    "iterations": {
+      "total": 1,
+      "pending": 0,
+      "failed": 0
+    },
+    "items": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "scripts": {
+      "total": 8,
+      "pending": 0,
+      "failed": 4
+    },
+    "prerequests": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "requests": {
+      "total": 4,
+      "pending": 0,
+      "failed": 4
+    },
+    "tests": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "assertions": {
+      "total": 8,
+      "pending": 0,
+      "failed": 8
+    },
+    "testScripts": {
+      "total": 4,
+      "pending": 0,
+      "failed": 4
+    },
+    "prerequestScripts": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    }
+  },
+  "failures": [
+    {
+      "source": "API-N01 | Utilisateur inexistant",
+      "error": ""
+    },
+    {
+      "source": "API-N01 | Utilisateur inexistant",
+      "error": "expected PostmanResponse{ …(5) } to have property 'code'"
+    },
+    {
+      "source": "API-N01 | Utilisateur inexistant",
+      "error": "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string"
+    },
+    {
+      "source": "API-N01 | Utilisateur inexistant",
+      "error": "\"undefined\" is not valid JSON"
+    },
+    {
+      "source": "API-N02 | Page au-delà de la dernière page",
+      "error": ""
+    },
+    {
+      "source": "API-N02 | Page au-delà de la dernière page",
+      "error": "expected PostmanResponse{ …(5) } to have property 'code'"
+    },
+    {
+      "source": "API-N02 | Page au-delà de la dernière page",
+      "error": "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string"
+    },
+    {
+      "source": "API-N02 | Page au-delà de la dernière page",
+      "error": "\"undefined\" is not valid JSON"
+    },
+    {
+      "source": "API-N03 | Connexion sans mot de passe",
+      "error": ""
+    },
+    {
+      "source": "API-N03 | Connexion sans mot de passe",
+      "error": "expected PostmanResponse{ …(5) } to have property 'code'"
+    },
+    {
+      "source": "API-N03 | Connexion sans mot de passe",
+      "error": "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string"
+    },
+    {
+      "source": "API-N03 | Connexion sans mot de passe",
+      "error": "\"undefined\" is not valid JSON"
+    },
+    {
+      "source": "API-N04 | Inscription sans mot de passe",
+      "error": ""
+    },
+    {
+      "source": "API-N04 | Inscription sans mot de passe",
+      "error": "expected PostmanResponse{ …(5) } to have property 'code'"
+    },
+    {
+      "source": "API-N04 | Inscription sans mot de passe",
+      "error": "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string"
+    },
+    {
+      "source": "API-N04 | Inscription sans mot de passe",
+      "error": "\"undefined\" is not valid JSON"
+    }
+  ],
+  "campaign": "negative-and-boundary",
+  "executions": [
+    {
+      "name": "API-N01 | Utilisateur inexistant",
+      "method": "GET",
+      "assertions": [
+        {
+          "name": "Statut attendu 404",
+          "passed": false
+        },
+        {
+          "name": "Type JSON",
+          "passed": false
+        }
+      ]
+    },
+    {
+      "name": "API-N02 | Page au-delà de la dernière page",
+      "method": "GET",
+      "assertions": [
+        {
+          "name": "Statut attendu 200",
+          "passed": false
+        },
+        {
+          "name": "Type JSON",
+          "passed": false
+        }
+      ]
+    },
+    {
+      "name": "API-N03 | Connexion sans mot de passe",
+      "method": "POST",
+      "assertions": [
+        {
+          "name": "Statut attendu 400",
+          "passed": false
+        },
+        {
+          "name": "Type JSON",
+          "passed": false
+        }
+      ]
+    },
+    {
+      "name": "API-N04 | Inscription sans mot de passe",
+      "method": "POST",
+      "assertions": [
+        {
+          "name": "Statut attendu 400",
+          "passed": false
+        },
+        {
+          "name": "Type JSON",
+          "passed": false
+        }
+      ]
+    }
+  ]
+}

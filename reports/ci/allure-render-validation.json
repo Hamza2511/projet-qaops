@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-06T08:13:52.001113+00:00",
+  "generated_html_loaded_over_http": true,
+  "title": "Allure Report",
+  "visible_six_test_cases": true,
+  "visible_success_rate": "100%",
+  "statistic": {
+    "failed": 0,
+    "broken": 0,
+    "skipped": 0,
+    "passed": 6,
+    "unknown": 0,
+    "total": 6
+  },
+  "screenshot": "reports/ui/allure-overview.png"
+}

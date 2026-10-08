@@ -1,0 +1,335 @@
+{
+  "checked_at_utc": "2026-10-07T08:54:05.717368+00:00",
+  "author": "Abdouraman Hamza",
+  "syntax_checked": [
+    "scripts/analyze_performance.py",
+    "scripts/run-xss-lab.py",
+    "scripts/wait_selenium.py",
+    "tests/ui/conftest.py",
+    "tests/ui/test_formy.py",
+    "tests/ui/test_local.py",
+    "postman/qaops-negative.collection.json",
+    "postman/qaops.collection.json",
+    "postman/reqres.environment.json",
+    "performance/reqres.jmx"
+  ],
+  "ui": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "6",
+    "time": "78.735",
+    "timestamp": "2026-10-06T08:09:27.313528+00:00",
+    "hostname": "DESKTOP-P58IBGC"
+  },
+  "api": {
+    "iterations": {
+      "total": 1,
+      "pending": 0,
+      "failed": 0
+    },
+    "items": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "scripts": {
+      "total": 8,
+      "pending": 0,
+      "failed": 0
+    },
+    "prerequests": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "requests": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "tests": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "assertions": {
+      "total": 14,
+      "pending": 0,
+      "failed": 0
+    },
+    "testScripts": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    },
+    "prerequestScripts": {
+      "total": 4,
+      "pending": 0,
+      "failed": 0
+    }
+  },
+  "allure": {
+    "failed": 0,
+    "broken": 0,
+    "skipped": 0,
+    "passed": 6,
+    "unknown": 0,
+    "total": 6
+  },
+  "allure_attachments_exist": true,
+  "allure_browser_render": {
+    "checked_at_utc": "2026-10-06T08:13:52.001113+00:00",
+    "generated_html_loaded_over_http": true,
+    "title": "Allure Report",
+    "visible_six_test_cases": true,
+    "visible_success_rate": "100%",
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 6,
+      "unknown": 0,
+      "total": 6
+    },
+    "screenshot": "reports/ui/allure-overview.png"
+  },
+  "pdf_pages": {
+    "plan-de-tests.pdf": 5,
+    "rapport-final.pdf": 10
+  },
+  "pdf_visual_review": "Previous pages retained; updated API, security, CI, evidence figures, XSS and extension pages rendered and visually reviewed",
+  "security_local_xss": {
+    "recorded_at_utc": "2026-10-06T23:22:24.885198+00:00",
+    "target": "loopback-only educational fixture",
+    "zap_exit_code": 0,
+    "xss_rule": 40012,
+    "vulnerable_detected": true,
+    "fixed_xss_detected": false,
+    "xss_urls": [
+      "http://127.0.0.1:18094/vulnerable?q=%3C%2Fp%3E%3CscrIpt%3Ealert%281%29%3B%3C%2FscRipt%3E%3Cp%3E"
+    ],
+    "limitation": "This controlled example does not demonstrate an exploitable XSS on Formy."
+  },
+  "security_local_browser": {
+    "verified_at_utc": "2026-10-06T23:24:46.214Z",
+    "payload": "<script>addEventListener('DOMContentLoaded',()=>document.getElementById('execution').textContent='XSS exécutée : preuve locale QAOps')</script>",
+    "vulnerable_text": "XSS exécutée : preuve locale QAOps",
+    "fixed_text": "Le JavaScript injecté n’a pas été exécuté.",
+    "method": "Real browser navigation and visible DOM text inspected",
+    "scope": "loopback-only; not Formy"
+  },
+  "api_negative": {
+    "status": "blocked_transport",
+    "cases_defined": 4,
+    "assertions_defined": 16,
+    "requests_failed_transport": 4,
+    "assertions_reached": 8,
+    "assertions_passed": 0,
+    "proof": "reports/api-negative/summary.json"
+  },
+  "jenkins": "Jenkinsfile prepared; existing local Jenkins requires user login; no build executed or Jenkins syntax validation obtained",
+  "performance_campaign": "2026-10-05, not rerun, thresholds not met",
+  "performance": {
+    "overall": {
+      "requests": 100,
+      "mean_ms": 1328.81,
+      "p95_ms": 8677.0,
+      "throughput_rps": 3.36,
+      "error_rate_pct": 16.0
+    },
+    "by_label": {
+      "GET users": {
+        "requests": 50,
+        "mean_ms": 2439.18,
+        "p95_ms": 9719.0,
+        "throughput_rps": 1.81,
+        "error_rate_pct": 0.0
+      },
+      "POST users": {
+        "requests": 50,
+        "mean_ms": 218.44,
+        "p95_ms": 434.0,
+        "throughput_rps": 2.78,
+        "error_rate_pct": 32.0
+      }
+    },
+    "passed": false
+  },
+  "zap_categories": 14,
+  "zap_medium_categories": 4,
+  "zap_campaign": "2026-10-05, not rerun",
+  "ci_local_checks": {
+    "generated_at_utc": "2026-10-06T17:13:17.216883+00:00",
+    "scope": "local CI-helper behavior, YAML structure and shell syntax; no GitLab pipeline or containers executed",
+    "configuration_sha256": "7147a644f7749d8eccc5b217bf3b76d829537d866461f467c166407b656be58d",
+    "checks": [
+      {
+        "name": "selenium_ready_modern_url",
+        "status": "passed",
+        "detail": "Selenium disponible apres 1 tentative(s)",
+        "seconds": 0.172
+      },
+      {
+        "name": "selenium_ready_legacy_url_trailing_slash",
+        "status": "passed",
+        "detail": "Selenium disponible apres 1 tentative(s)",
+        "seconds": 0.0
+      },
+      {
+        "name": "selenium_recovers_from_malformed_missing_and_not_ready",
+        "status": "passed",
+        "detail": "Selenium disponible apres 4 tentative(s)",
+        "seconds": 0.047
+      },
+      {
+        "name": "selenium_false_is_not_ready_and_deadline_is_bounded",
+        "status": "passed",
+        "detail": {
+          "expected": "TimeoutError",
+          "elapsed_seconds": 0.156,
+          "message": "Selenium indisponible apres 0.15 s et 10 tentative(s) : le service ne renvoie pas value.ready=true"
+        },
+        "seconds": 0.156
+      },
+      {
+        "name": "selenium_string_true_is_not_readiness",
+        "status": "passed",
+        "detail": {
+          "expected": "TimeoutError",
+          "elapsed_seconds": 0.156,
+          "message": "Selenium indisponible apres 0.15 s et 12 tentative(s) : le service ne renvoie pas value.ready=true"
+        },
+        "seconds": 0.156
+      },
+      {
+        "name": "selenium_http_503_is_not_readiness",
+        "status": "passed",
+        "detail": {
+          "expected": "TimeoutError",
+          "elapsed_seconds": 0.157,
+          "message": "Selenium indisponible apres 0.15 s et 11 tentative(s) : HTTPError"
+        },
+        "seconds": 0.157
+      },
+      {
+        "name": "selenium_invalid_timeout_rejected",
+        "status": "passed",
+        "detail": "zero, negative, NaN and infinity rejected",
+        "seconds": 0.0
+      },
+      {
+        "name": "selenium_cli_nonzero_on_unavailable_service",
+        "status": "passed",
+        "detail": {
+          "exit_code": 1,
+          "stderr": "Selenium indisponible apres 0.15 s et 1 tentative(s) : le service ne renvoie pas value.ready=true"
+        },
+        "seconds": 0.765
+      },
+      {
+        "name": "allure_rejects_missing_directory",
+        "status": "passed",
+        "detail": {
+          "exit_code": 1,
+          "stdout": "",
+          "stderr": "Generation Allure impossible : ENOENT: no such file or directory, scandir '<temporary fixture>'"
+        },
+        "seconds": 0.36
+      },
+      {
+        "name": "allure_rejects_empty_directory",
+        "status": "passed",
+        "detail": {
+          "exit_code": 1,
+          "stdout": "",
+          "stderr": "Generation Allure impossible : Aucun resultat de test Allure disponible"
+        },
+        "seconds": 0.296
+      },
+      {
+        "name": "allure_rejects_malformed_json",
+        "status": "passed",
+        "detail": {
+          "exit_code": 1,
+          "stdout": "",
+          "stderr": "Generation Allure impossible : Expected property name or '}' in JSON at position 1 (line 1 column 2)"
+        },
+        "seconds": 0.329
+      },
+      {
+        "name": "allure_rejects_incomplete_result",
+        "status": "passed",
+        "detail": {
+          "exit_code": 1,
+          "stdout": "",
+          "stderr": "Generation Allure impossible : Resultat Allure incomplet : sample-result.json"
+        },
+        "seconds": 0.312
+      },
+      {
+        "name": "allure_accepts_result_and_failure_result_for_reporting",
+        "status": "passed",
+        "detail": {
+          "exit_code": 0,
+          "stdout": "{\"testResults\":2,\"statuses\":{\"failed\":1,\"passed\":1}}",
+          "stderr": ""
+        },
+        "seconds": 0.391
+      },
+      {
+        "name": "yaml_and_shell",
+        "status": "blocked",
+        "detail": "PyYAML dependency not yet available"
+      }
+    ],
+    "docker_probe": {
+      "command": "docker version --format '{{.Server.Version}}'",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "WARNING: Error loading config file: open C:\\Users\\PC\\.docker\\config.json: Access is denied.\nfailed to connect to the docker API at npipe:////./pipe/docker_engine; check if the path is correct and if the daemon is running: open //./pipe/docker_engine: The system cannot find the file specified."
+    },
+    "official_references": [
+      "https://docs.gitlab.com/ci/yaml/",
+      "https://docs.gitlab.com/ci/services/",
+      "https://docs.gitlab.com/ci/jobs/job_artifacts/",
+      "https://docs.gitlab.com/ci/yaml/lint/",
+      "https://www.selenium.dev/documentation/grid/getting_started/",
+      "https://github.com/SeleniumHQ/docker-selenium",
+      "https://www.zaproxy.org/docs/docker/baseline-scan/"
+    ],
+    "limitations": [
+      "No GitLab CI Lint server validation",
+      "No Docker daemon available",
+      "No real Grid service started by these checks",
+      "No GitLab job scheduling, artifact upload or notifications verified"
+    ]
+  },
+  "gitlab_pipeline": "created, blocked by identity verification; 0 jobs executed",
+  "gitlab_publication": "published privately at https://gitlab.com/abdouraman011/projet-qaops",
+  "gitlab_evidence": {
+    "checked_at_utc": "2026-10-06T22:46:43.033901+00:00",
+    "project_url": "https://gitlab.com/abdouraman011/projet-qaops",
+    "visibility": "private",
+    "project_id": 87309202,
+    "source_commit": "8d2e3a7f6230b64d61ad5588aab085fd73aaac9f",
+    "published_source_files": 27,
+    "downloaded_repository_comparison": "All 27 files match local content; JSON compared as parsed data and line endings normalized.",
+    "pipeline_url": "https://gitlab.com/abdouraman011/projet-qaops/-/pipelines/2919817204",
+    "pipeline_status": "failed_before_jobs",
+    "executed_jobs": 0,
+    "pipeline_error": "Identity verification is required in order to run CI jobs",
+    "ci_editor_syntax": "Pipeline syntax is correct.",
+    "pipeline_simulation": "blocked_by_identity_verification",
+    "notifications_configured": [
+      "Pipeline fails",
+      "Pipeline is fixed",
+      "Pipeline is successful"
+    ],
+    "notifications_delivery_tested": false,
+    "remaining_requirement": "GitLab identity verification, then a new pipeline and validation of jobs/artifacts/notification delivery.",
+    "identity_verification_not_pursued": true
+  },
+  "notifications": "personal pipeline failure, fixed and success events configured; delivery not tested"
+}

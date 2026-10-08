@@ -1,0 +1,197 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1791218699910,2698,GET users,200,OK,50 utilisateurs GET et POST 1-16,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,2678,0,2438
+1791218693333,9276,GET users,200,OK,50 utilisateurs GET et POST 1-5,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,9258,0,8872
+1791218692888,9720,GET users,200,OK,50 utilisateurs GET et POST 1-1,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,9701,0,9309
+1791218692889,9720,GET users,200,OK,50 utilisateurs GET et POST 1-4,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,9701,0,9292
+1791218699322,3286,GET users,200,OK,50 utilisateurs GET et POST 1-15,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,3266,0,2866
+1791218700525,2083,GET users,200,OK,50 utilisateurs GET et POST 1-17,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,2063,0,1674
+1791218693932,8677,GET users,200,OK,50 utilisateurs GET et POST 1-6,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,8657,0,8259
+1791218701128,1481,GET users,200,OK,50 utilisateurs GET et POST 1-18,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,1462,0,1075
+1791218701728,881,GET users,200,OK,50 utilisateurs GET et POST 1-19,text,true,,3505,173,23,23,https://reqres.in/api/users?page=2,861,0,453
+1791218696319,6289,GET users,200,OK,50 utilisateurs GET et POST 1-10,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,6269,0,5875
+1791218695121,7488,GET users,200,OK,50 utilisateurs GET et POST 1-8,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,7470,0,7060
+1791218692890,9719,GET users,200,OK,50 utilisateurs GET et POST 1-2,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,9701,0,9309
+1791218697524,5084,GET users,200,OK,50 utilisateurs GET et POST 1-12,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,5065,0,4666
+1791218698128,4480,GET users,200,OK,50 utilisateurs GET et POST 1-13,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,4462,0,4076
+1791218702338,271,GET users,200,OK,50 utilisateurs GET et POST 1-20,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,264,0,190
+1791218692890,9719,GET users,200,OK,50 utilisateurs GET et POST 1-3,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,9701,0,9295
+1791218696923,5685,GET users,200,OK,50 utilisateurs GET et POST 1-11,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,5667,0,5257
+1791218695736,6873,GET users,200,OK,50 utilisateurs GET et POST 1-9,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,6853,0,6467
+1791218694517,8092,GET users,200,OK,50 utilisateurs GET et POST 1-7,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,8072,0,7664
+1791218698725,3883,GET users,200,OK,50 utilisateurs GET et POST 1-14,text,true,,3509,173,23,23,https://reqres.in/api/users?page=2,3863,0,3465
+1791218702936,208,GET users,200,OK,50 utilisateurs GET et POST 1-21,text,true,,3509,173,24,24,https://reqres.in/api/users?page=2,208,0,139
+1791218703523,229,GET users,200,OK,50 utilisateurs GET et POST 1-22,text,true,,3509,173,25,25,https://reqres.in/api/users?page=2,229,0,144
+1791218704140,236,GET users,200,OK,50 utilisateurs GET et POST 1-23,text,true,,3509,173,26,26,https://reqres.in/api/users?page=2,236,0,162
+1791218704630,197,POST users,201,Created,50 utilisateurs GET et POST 1-3,text,true,,2390,224,27,27,https://reqres.in/api/users,197,0,0
+1791218704630,199,POST users,201,Created,50 utilisateurs GET et POST 1-20,text,true,,2384,224,27,27,https://reqres.in/api/users,199,0,0
+1791218704628,201,POST users,201,Created,50 utilisateurs GET et POST 1-6,text,true,,2392,224,27,27,https://reqres.in/api/users,201,0,0
+1791218704631,205,POST users,201,Created,50 utilisateurs GET et POST 1-7,text,true,,2390,224,24,24,https://reqres.in/api/users,205,0,0
+1791218704631,206,POST users,201,Created,50 utilisateurs GET et POST 1-11,text,true,,2384,224,24,24,https://reqres.in/api/users,206,0,0
+1791218704629,213,POST users,201,Created,50 utilisateurs GET et POST 1-18,text,true,,2397,224,22,22,https://reqres.in/api/users,212,0,0
+1791218704630,212,POST users,201,Created,50 utilisateurs GET et POST 1-10,text,true,,2392,224,22,22,https://reqres.in/api/users,212,0,0
+1791218704629,213,POST users,201,Created,50 utilisateurs GET et POST 1-12,text,true,,2384,224,22,22,https://reqres.in/api/users,213,0,0
+1791218704632,230,POST users,201,Created,50 utilisateurs GET et POST 1-9,text,true,,2396,224,19,19,https://reqres.in/api/users,230,0,0
+1791218704631,253,POST users,201,Created,50 utilisateurs GET et POST 1-15,text,true,,2392,224,18,18,https://reqres.in/api/users,253,0,0
+1791218704630,255,POST users,201,Created,50 utilisateurs GET et POST 1-8,text,true,,2392,224,18,18,https://reqres.in/api/users,255,0,0
+1791218704629,256,POST users,201,Created,50 utilisateurs GET et POST 1-16,text,true,,2384,224,18,18,https://reqres.in/api/users,256,0,0
+1791218704630,255,POST users,201,Created,50 utilisateurs GET et POST 1-1,text,true,,2384,224,18,18,https://reqres.in/api/users,255,0,0
+1791218704631,254,POST users,201,Created,50 utilisateurs GET et POST 1-14,text,true,,2397,224,18,18,https://reqres.in/api/users,254,0,0
+1791218704629,258,POST users,201,Created,50 utilisateurs GET et POST 1-19,text,true,,2392,224,13,13,https://reqres.in/api/users,258,0,0
+1791218704629,259,POST users,201,Created,50 utilisateurs GET et POST 1-4,text,true,,2384,224,13,13,https://reqres.in/api/users,259,0,0
+1791218704631,257,POST users,201,Created,50 utilisateurs GET et POST 1-13,text,true,,2389,224,13,13,https://reqres.in/api/users,257,0,0
+1791218704629,259,POST users,201,Created,50 utilisateurs GET et POST 1-5,text,true,,2396,224,13,13,https://reqres.in/api/users,259,0,0
+1791218704631,259,POST users,201,Created,50 utilisateurs GET et POST 1-2,text,true,,2396,224,9,9,https://reqres.in/api/users,259,0,0
+1791218704724,324,GET users,200,OK,50 utilisateurs GET et POST 1-24,text,true,,3497,173,8,8,https://reqres.in/api/users?page=2,323,0,121
+1791218704628,434,POST users,201,Created,50 utilisateurs GET et POST 1-17,text,true,,2397,224,8,8,https://reqres.in/api/users,434,0,0
+1791218705164,120,POST users,201,Created,50 utilisateurs GET et POST 1-21,text,true,,2383,224,8,8,https://reqres.in/api/users,120,0,0
+1791218705322,231,GET users,200,OK,50 utilisateurs GET et POST 1-25,text,true,,3509,173,7,7,https://reqres.in/api/users?page=2,231,0,154
+1791218705763,113,POST users,201,Created,50 utilisateurs GET et POST 1-22,text,true,,2390,224,8,8,https://reqres.in/api/users,113,0,0
+1791218705923,198,GET users,200,OK,50 utilisateurs GET et POST 1-26,text,true,,3509,173,7,7,https://reqres.in/api/users?page=2,198,0,128
+1791218706381,119,POST users,201,Created,50 utilisateurs GET et POST 1-23,text,true,,2403,224,8,8,https://reqres.in/api/users,119,0,0
+1791218706527,199,GET users,200,OK,50 utilisateurs GET et POST 1-27,text,true,,3509,173,7,7,https://reqres.in/api/users?page=2,199,0,130
+1791218707062,169,POST users,201,Created,50 utilisateurs GET et POST 1-24,text,true,,2417,224,8,8,https://reqres.in/api/users,169,0,0
+1791218707126,199,GET users,200,OK,50 utilisateurs GET et POST 1-28,text,true,,3509,173,7,7,https://reqres.in/api/users?page=2,199,0,131
+1791218707564,129,POST users,201,Created,50 utilisateurs GET et POST 1-25,text,true,,2409,224,8,8,https://reqres.in/api/users,129,0,0
+1791218707724,227,GET users,200,OK,50 utilisateurs GET et POST 1-29,text,true,,3509,173,7,7,https://reqres.in/api/users?page=2,227,0,140
+1791218708134,120,POST users,201,Created,50 utilisateurs GET et POST 1-26,text,true,,2396,224,8,8,https://reqres.in/api/users,120,0,0
+1791218708326,238,GET users,200,OK,50 utilisateurs GET et POST 1-30,text,true,,3509,173,7,7,https://reqres.in/api/users?page=2,237,0,149
+1791218708735,122,POST users,201,Created,50 utilisateurs GET et POST 1-27,text,true,,2506,224,8,8,https://reqres.in/api/users,122,0,0
+1791218708926,187,GET users,200,OK,50 utilisateurs GET et POST 1-31,text,true,,3509,173,7,7,https://reqres.in/api/users?page=2,187,0,120
+1791218709338,116,POST users,201,Created,50 utilisateurs GET et POST 1-28,text,true,,2499,224,8,8,https://reqres.in/api/users,116,0,0
+1791218709529,173,GET users,200,OK,50 utilisateurs GET et POST 1-32,text,true,,3509,173,7,7,https://reqres.in/api/users?page=2,173,0,115
+1791218709956,118,POST users,201,Created,50 utilisateurs GET et POST 1-29,text,true,,2490,224,8,8,https://reqres.in/api/users,118,0,0
+1791218710130,336,GET users,200,OK,50 utilisateurs GET et POST 1-33,text,true,,3509,173,7,7,https://reqres.in/api/users?page=2,336,0,243
+1791218710571,117,POST users,201,Created,50 utilisateurs GET et POST 1-30,text,true,,2494,224,8,8,https://reqres.in/api/users,117,0,0
+1791218710732,198,GET users,200,OK,50 utilisateurs GET et POST 1-34,text,true,,3509,173,7,7,https://reqres.in/api/users?page=2,198,0,131
+1791218711129,137,POST users,201,Created,50 utilisateurs GET et POST 1-31,text,true,,2494,224,8,8,https://reqres.in/api/users,137,0,0
+1791218711319,237,GET users,200,OK,50 utilisateurs GET et POST 1-35,text,true,,3509,173,7,7,https://reqres.in/api/users?page=2,237,0,170
+1791218711708,105,POST users,201,Created,50 utilisateurs GET et POST 1-32,text,true,,2494,224,8,8,https://reqres.in/api/users,105,0,0
+1791218711914,200,GET users,200,OK,50 utilisateurs GET et POST 1-36,text,true,,3509,173,7,7,https://reqres.in/api/users?page=2,200,0,126
+1791218712470,149,POST users,201,Created,50 utilisateurs GET et POST 1-33,text,true,,2490,224,8,8,https://reqres.in/api/users,149,0,0
+1791218712518,224,GET users,200,OK,50 utilisateurs GET et POST 1-37,text,true,,3510,173,7,7,https://reqres.in/api/users?page=2,223,0,120
+1791218713118,196,GET users,200,OK,50 utilisateurs GET et POST 1-38,text,true,,3510,173,8,8,https://reqres.in/api/users?page=2,196,0,130
+1791218713723,172,GET users,200,OK,50 utilisateurs GET et POST 1-39,text,true,,3510,173,9,9,https://reqres.in/api/users?page=2,172,0,114
+1791218712944,1263,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-34,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2601,224,10,10,https://reqres.in/api/users,1263,0,0
+1791218714118,123,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-36,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2601,224,9,9,https://reqres.in/api/users,123,0,0
+1791218714327,190,GET users,200,OK,50 utilisateurs GET et POST 1-40,text,true,,3510,173,8,8,https://reqres.in/api/users?page=2,190,0,124
+1791218714751,126,POST users,201,Created,50 utilisateurs GET et POST 1-37,text,true,,2490,224,9,9,https://reqres.in/api/users,125,0,0
+1791218713563,1349,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-35,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2614,224,8,8,https://reqres.in/api/users,1349,0,0
+1791218714927,217,GET users,200,OK,50 utilisateurs GET et POST 1-41,text,true,,3510,173,7,7,https://reqres.in/api/users?page=2,217,0,118
+1791218715321,122,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-38,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2501,224,8,8,https://reqres.in/api/users,122,0,0
+1791218715530,296,GET users,200,OK,50 utilisateurs GET et POST 1-42,text,true,,3502,173,7,7,https://reqres.in/api/users?page=2,296,0,163
+1791218715911,121,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-39,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2661,224,8,8,https://reqres.in/api/users,121,0,0
+1791218716133,240,GET users,200,OK,50 utilisateurs GET et POST 1-43,text,true,,3510,173,7,7,https://reqres.in/api/users?page=2,239,0,166
+1791218716524,118,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-40,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2671,224,8,8,https://reqres.in/api/users,118,0,0
+1791218716728,213,GET users,200,OK,50 utilisateurs GET et POST 1-44,text,true,,3510,173,7,7,https://reqres.in/api/users?page=2,212,0,146
+1791218717155,110,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-41,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2665,224,8,8,https://reqres.in/api/users,110,0,0
+1791218717331,190,GET users,200,OK,50 utilisateurs GET et POST 1-45,text,true,,3510,173,7,7,https://reqres.in/api/users?page=2,190,0,124
+1791218717838,145,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-42,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2669,224,8,8,https://reqres.in/api/users,145,0,0
+1791218717920,197,GET users,200,OK,50 utilisateurs GET et POST 1-46,text,true,,3510,173,7,7,https://reqres.in/api/users?page=2,197,0,130
+1791218718386,134,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-43,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2661,224,8,8,https://reqres.in/api/users,134,0,0
+1791218718519,191,GET users,200,OK,50 utilisateurs GET et POST 1-47,text,true,,3510,173,7,7,https://reqres.in/api/users?page=2,191,0,125
+1791218718957,118,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-44,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2669,224,7,7,https://reqres.in/api/users,118,0,0
+1791218719115,199,GET users,200,OK,50 utilisateurs GET et POST 1-48,text,true,,3510,173,6,6,https://reqres.in/api/users?page=2,199,0,129
+1791218719523,116,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-45,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2677,224,6,6,https://reqres.in/api/users,116,0,0
+1791218719713,204,GET users,200,OK,50 utilisateurs GET et POST 1-49,text,true,,3510,173,5,5,https://reqres.in/api/users?page=2,204,0,138
+1791218720125,121,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-46,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2677,224,5,5,https://reqres.in/api/users,121,0,0
+1791218720316,205,GET users,200,OK,50 utilisateurs GET et POST 1-50,text,true,,3502,173,4,4,https://reqres.in/api/users?page=2,205,0,133
+1791218720727,117,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-47,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2673,224,4,4,https://reqres.in/api/users,116,0,0
+1791218721327,112,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-48,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2673,224,3,3,https://reqres.in/api/users,112,0,0
+1791218721927,111,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-49,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2665,224,2,2,https://reqres.in/api/users,111,0,0
+1791218722527,107,POST users,429,Too Many Requests,50 utilisateurs GET et POST 1-50,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[429]]]
+
+****** comparison: [[[201]]]
+
+/",2665,224,1,1,https://reqres.in/api/users,106,0,0

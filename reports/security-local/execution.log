@@ -1,0 +1,89 @@
+Defaulting ZAP install dir to C:\Users\PC\Documents\Codex\2026-10-05\f\work\zap\ZAP_2.17.0
+1576 [main] INFO  org.parosproxy.paros.Constant - Copying default configuration to C:\Users\PC\Documents\Codex\2026-10-05\referenced-chatgpt-conversation-this-is-an\work\xss-lab\zap-home\config.xml
+1965 [main] INFO  org.parosproxy.paros.Constant - Creating directory C:\Users\PC\Documents\Codex\2026-10-05\referenced-chatgpt-conversation-this-is-an\work\xss-lab\zap-home\session
+1967 [main] INFO  org.parosproxy.paros.Constant - Creating directory C:\Users\PC\Documents\Codex\2026-10-05\referenced-chatgpt-conversation-this-is-an\work\xss-lab\zap-home\dirbuster
+1969 [main] INFO  org.parosproxy.paros.Constant - Creating directory C:\Users\PC\Documents\Codex\2026-10-05\referenced-chatgpt-conversation-this-is-an\work\xss-lab\zap-home\fuzzers
+1971 [main] INFO  org.parosproxy.paros.Constant - Creating directory C:\Users\PC\Documents\Codex\2026-10-05\referenced-chatgpt-conversation-this-is-an\work\xss-lab\zap-home\plugin
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0xffffffff80000001. Windows RegCreateKeyEx(...) returned error code 5.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs at root 0xffffffff80000001.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp at root 0xffffffff80000001.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001.
+Oct 07, 2026 12:22:02 AM java.util.prefs.WindowsPreferences openKey
+WARNING: Could not open windows registry node Software\JavaSoft\Prefs\owasp\jbrofuzz at root 0xffffffff80000001. Windows RegOpenKey(...) returned error code 2.
+Job requestor set url = http://127.0.0.1:18094/vulnerable?q=Sara
+Job requestor set method = GET
+Job requestor set responseCode = 200
+Job requestor set url = http://127.0.0.1:18094/fixed?q=Sara
+Job requestor set method = GET
+Job requestor set responseCode = 200
+Job activeScan set context = QAOpsLocal
+Job activeScan set maxRuleDurationInMins = 1
+Job activeScan set maxScanDurationInMins = 2
+Job activeScan set threadPerHost = 1
+Job activeScan set delayInMs = 20
+Job activeScan set defaultStrength = Medium
+Job activeScan set defaultThreshold = Off
+Job passiveScan-wait set maxDuration = 1
+Job report set template = traditional-json
+Job report set reportDir = C:\Users\PC\Documents\Codex\2026-10-05\referenced-chatgpt-conversation-this-is-an\outputs\projet-qaops\reports\security-local
+Job report set reportFile = zap-local.json
+Job report set reportTitle = QAOps - XSS local avant et après correction
+Job report set template = traditional-html
+Job report set reportDir = C:\Users\PC\Documents\Codex\2026-10-05\referenced-chatgpt-conversation-this-is-an\outputs\projet-qaops\reports\security-local
+Job report set reportFile = zap-local.html
+Job report set reportTitle = QAOps - XSS local avant et après correction
+Job requestor started
+Job requestor requesting URL http://127.0.0.1:18094/vulnerable?q=Sara
+Job requestor requesting URL http://127.0.0.1:18094/fixed?q=Sara
+Job requestor finished, time taken: 00:00:00
+Job activeScan started
+Job activeScan set default strength to MEDIUM
+Job activeScan set default threshold to OFF
+Job activeScan set rule 40012 strength to MEDIUM
+Job activeScan set rule 40012 threshold to MEDIUM
+Job activeScan finished, time taken: 00:00:01
+Job passiveScan-wait started
+Job passiveScan-wait finished, time taken: 00:00:01
+Job report started
+Job report generated report C:\Users\PC\Documents\Codex\2026-10-05\referenced-chatgpt-conversation-this-is-an\outputs\projet-qaops\reports\security-local\zap-local.json
+Job report finished, time taken: 00:00:00
+Job report started
+Job report generated report C:\Users\PC\Documents\Codex\2026-10-05\referenced-chatgpt-conversation-this-is-an\outputs\projet-qaops\reports\security-local\zap-local.html
+Job report finished, time taken: 00:00:00
+Automation plan succeeded!

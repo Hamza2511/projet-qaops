@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="6" skipped="0" tests="6" time="41.112" timestamp="2026-10-05T16:10:49.005799+00:00" hostname="DESKTOP-P58IBGC"><testcase classname="tests.ui.test_formy" name="test_ui01_form" time="4.622"><failure message="selenium.common.exceptions.WebDriverException: Message: tab crashed&#10;  (Session info: chrome=153.0.8010.50)">tests\ui\test_formy.py:14: in test_ui01_form
+    driver.get(formy + '/form')
+..\..\work\pydeps\selenium\webdriver\remote\webdriver.py:393: in get
+    self.execute(Command.GET, {"url": url})
+..\..\work\pydeps\selenium\webdriver\remote\webdriver.py:384: in execute
+    self.error_handler.check_response(response)
+..\..\work\pydeps\selenium\webdriver\remote\errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: tab crashed
+E     (Session info: chrome=153.0.8010.50)</failure></testcase><testcase classname="tests.ui.test_formy" name="test_ui02_buttons" time="5.707"><failure message="selenium.common.exceptions.WebDriverException: Message: tab crashed&#10;  (Session info: chrome=153.0.8010.50)">tests\ui\test_formy.py:31: in test_ui02_buttons
+    driver.get(formy + '/buttons')
+..\..\work\pydeps\selenium\webdriver\remote\webdriver.py:393: in get
+    self.execute(Command.GET, {"url": url})
+..\..\work\pydeps\selenium\webdriver\remote\webdriver.py:384: in execute
+    self.error_handler.check_response(response)
+..\..\work\pydeps\selenium\webdriver\remote\errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: tab crashed
+E     (Session info: chrome=153.0.8010.50)</failure></testcase><testcase classname="tests.ui.test_formy" name="test_ui03_modal" time="5.369"><failure message="selenium.common.exceptions.WebDriverException: Message: tab crashed&#10;  (Session info: chrome=153.0.8010.50)">tests\ui\test_formy.py:41: in test_ui03_modal
+    driver.get(formy + '/modal')
+..\..\work\pydeps\selenium\webdriver\remote\webdriver.py:393: in get
+    self.execute(Command.GET, {"url": url})
+..\..\work\pydeps\selenium\webdriver\remote\webdriver.py:384: in execute
+    self.error_handler.check_response(response)
+..\..\work\pydeps\selenium\webdriver\remote\errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: tab crashed
+E     (Session info: chrome=153.0.8010.50)</failure></testcase><testcase classname="tests.ui.test_formy" name="test_ui04_alert_window" time="4.018"><failure message="selenium.common.exceptions.WebDriverException: Message: tab crashed&#10;  (Session info: chrome=153.0.8010.50)">tests\ui\test_formy.py:50: in test_ui04_alert_window
+    driver.get(formy + '/switch-window')
+..\..\work\pydeps\selenium\webdriver\remote\webdriver.py:393: in get
+    self.execute(Command.GET, {"url": url})
+..\..\work\pydeps\selenium\webdriver\remote\webdriver.py:384: in execute
+    self.error_handler.check_response(response)
+..\..\work\pydeps\selenium\webdriver\remote\errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: tab crashed
+E     (Session info: chrome=153.0.8010.50)</failure></testcase><testcase classname="tests.ui.test_local" name="test_ui05_login" time="4.177"><failure message="selenium.common.exceptions.WebDriverException: Message: tab crashed&#10;  (Session info: chrome=153.0.8010.50)">tests\ui\test_local.py:11: in test_ui05_login
+    driver.get(local_page)
+..\..\work\pydeps\selenium\webdriver\remote\webdriver.py:393: in get
+    self.execute(Command.GET, {"url": url})
+..\..\work\pydeps\selenium\webdriver\remote\webdriver.py:384: in execute
+    self.error_handler.check_response(response)
+..\..\work\pydeps\selenium\webdriver\remote\errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: tab crashed
+E     (Session info: chrome=153.0.8010.50)</failure></testcase><testcase classname="tests.ui.test_local" name="test_ui06_iframe" time="4.094"><failure message="selenium.common.exceptions.WebDriverException: Message: tab crashed&#10;  (Session info: chrome=153.0.8010.50)">tests\ui\test_local.py:24: in test_ui06_iframe
+    driver.get(local_page)
+..\..\work\pydeps\selenium\webdriver\remote\webdriver.py:393: in get
+    self.execute(Command.GET, {"url": url})
+..\..\work\pydeps\selenium\webdriver\remote\webdriver.py:384: in execute
+    self.error_handler.check_response(response)
+..\..\work\pydeps\selenium\webdriver\remote\errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: tab crashed
+E     (Session info: chrome=153.0.8010.50)</failure></testcase></testsuite></testsuites>

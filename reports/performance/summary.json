@@ -1,0 +1,26 @@
+{
+  "overall": {
+    "requests": 100,
+    "mean_ms": 1328.81,
+    "p95_ms": 8677.0,
+    "throughput_rps": 3.36,
+    "error_rate_pct": 16.0
+  },
+  "by_label": {
+    "GET users": {
+      "requests": 50,
+      "mean_ms": 2439.18,
+      "p95_ms": 9719.0,
+      "throughput_rps": 1.81,
+      "error_rate_pct": 0.0
+    },
+    "POST users": {
+      "requests": 50,
+      "mean_ms": 218.44,
+      "p95_ms": 434.0,
+      "throughput_rps": 2.78,
+      "error_rate_pct": 32.0
+    }
+  },
+  "passed": false
+}

@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-06T08:12:59.4790372Z",
+  "host": "gitlab.com",
+  "stored_git_credential_available": false,
+  "interactive_login_attempted": false,
+  "remote_repository_configured": false,
+  "gitlab_pipeline_executed": false
+}

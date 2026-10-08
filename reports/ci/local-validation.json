@@ -1,0 +1,146 @@
+{
+  "generated_at_utc": "2026-10-06T17:13:17.216883+00:00",
+  "scope": "local CI-helper behavior, YAML structure and shell syntax; no GitLab pipeline or containers executed",
+  "configuration_sha256": "7147a644f7749d8eccc5b217bf3b76d829537d866461f467c166407b656be58d",
+  "checks": [
+    {
+      "name": "selenium_ready_modern_url",
+      "status": "passed",
+      "detail": "Selenium disponible apres 1 tentative(s)",
+      "seconds": 0.172
+    },
+    {
+      "name": "selenium_ready_legacy_url_trailing_slash",
+      "status": "passed",
+      "detail": "Selenium disponible apres 1 tentative(s)",
+      "seconds": 0.0
+    },
+    {
+      "name": "selenium_recovers_from_malformed_missing_and_not_ready",
+      "status": "passed",
+      "detail": "Selenium disponible apres 4 tentative(s)",
+      "seconds": 0.047
+    },
+    {
+      "name": "selenium_false_is_not_ready_and_deadline_is_bounded",
+      "status": "passed",
+      "detail": {
+        "expected": "TimeoutError",
+        "elapsed_seconds": 0.156,
+        "message": "Selenium indisponible apres 0.15 s et 10 tentative(s) : le service ne renvoie pas value.ready=true"
+      },
+      "seconds": 0.156
+    },
+    {
+      "name": "selenium_string_true_is_not_readiness",
+      "status": "passed",
+      "detail": {
+        "expected": "TimeoutError",
+        "elapsed_seconds": 0.156,
+        "message": "Selenium indisponible apres 0.15 s et 12 tentative(s) : le service ne renvoie pas value.ready=true"
+      },
+      "seconds": 0.156
+    },
+    {
+      "name": "selenium_http_503_is_not_readiness",
+      "status": "passed",
+      "detail": {
+        "expected": "TimeoutError",
+        "elapsed_seconds": 0.157,
+        "message": "Selenium indisponible apres 0.15 s et 11 tentative(s) : HTTPError"
+      },
+      "seconds": 0.157
+    },
+    {
+      "name": "selenium_invalid_timeout_rejected",
+      "status": "passed",
+      "detail": "zero, negative, NaN and infinity rejected",
+      "seconds": 0.0
+    },
+    {
+      "name": "selenium_cli_nonzero_on_unavailable_service",
+      "status": "passed",
+      "detail": {
+        "exit_code": 1,
+        "stderr": "Selenium indisponible apres 0.15 s et 1 tentative(s) : le service ne renvoie pas value.ready=true"
+      },
+      "seconds": 0.765
+    },
+    {
+      "name": "allure_rejects_missing_directory",
+      "status": "passed",
+      "detail": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "Generation Allure impossible : ENOENT: no such file or directory, scandir '<temporary fixture>'"
+      },
+      "seconds": 0.36
+    },
+    {
+      "name": "allure_rejects_empty_directory",
+      "status": "passed",
+      "detail": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "Generation Allure impossible : Aucun resultat de test Allure disponible"
+      },
+      "seconds": 0.296
+    },
+    {
+      "name": "allure_rejects_malformed_json",
+      "status": "passed",
+      "detail": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "Generation Allure impossible : Expected property name or '}' in JSON at position 1 (line 1 column 2)"
+      },
+      "seconds": 0.329
+    },
+    {
+      "name": "allure_rejects_incomplete_result",
+      "status": "passed",
+      "detail": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "Generation Allure impossible : Resultat Allure incomplet : sample-result.json"
+      },
+      "seconds": 0.312
+    },
+    {
+      "name": "allure_accepts_result_and_failure_result_for_reporting",
+      "status": "passed",
+      "detail": {
+        "exit_code": 0,
+        "stdout": "{\"testResults\":2,\"statuses\":{\"failed\":1,\"passed\":1}}",
+        "stderr": ""
+      },
+      "seconds": 0.391
+    },
+    {
+      "name": "yaml_and_shell",
+      "status": "blocked",
+      "detail": "PyYAML dependency not yet available"
+    }
+  ],
+  "docker_probe": {
+    "command": "docker version --format '{{.Server.Version}}'",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "WARNING: Error loading config file: open C:\\Users\\PC\\.docker\\config.json: Access is denied.\nfailed to connect to the docker API at npipe:////./pipe/docker_engine; check if the path is correct and if the daemon is running: open //./pipe/docker_engine: The system cannot find the file specified."
+  },
+  "official_references": [
+    "https://docs.gitlab.com/ci/yaml/",
+    "https://docs.gitlab.com/ci/services/",
+    "https://docs.gitlab.com/ci/jobs/job_artifacts/",
+    "https://docs.gitlab.com/ci/yaml/lint/",
+    "https://www.selenium.dev/documentation/grid/getting_started/",
+    "https://github.com/SeleniumHQ/docker-selenium",
+    "https://www.zaproxy.org/docs/docker/baseline-scan/"
+  ],
+  "limitations": [
+    "No GitLab CI Lint server validation",
+    "No Docker daemon available",
+    "No real Grid service started by these checks",
+    "No GitLab job scheduling, artifact upload or notifications verified"
+  ]
+}

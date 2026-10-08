@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-10-06T22:46:43.033901+00:00",
+  "project_url": "https://gitlab.com/abdouraman011/projet-qaops",
+  "visibility": "private",
+  "project_id": 87309202,
+  "source_commit": "8d2e3a7f6230b64d61ad5588aab085fd73aaac9f",
+  "published_source_files": 27,
+  "downloaded_repository_comparison": "All 27 files match local content; JSON compared as parsed data and line endings normalized.",
+  "pipeline_url": "https://gitlab.com/abdouraman011/projet-qaops/-/pipelines/2919817204",
+  "pipeline_status": "failed_before_jobs",
+  "executed_jobs": 0,
+  "pipeline_error": "Identity verification is required in order to run CI jobs",
+  "ci_editor_syntax": "Pipeline syntax is correct.",
+  "pipeline_simulation": "blocked_by_identity_verification",
+  "notifications_configured": [
+    "Pipeline fails",
+    "Pipeline is fixed",
+    "Pipeline is successful"
+  ],
+  "notifications_delivery_tested": false,
+  "remaining_requirement": "GitLab identity verification, then a new pipeline and validation of jobs/artifacts/notification delivery.",
+  "identity_verification_not_pursued": true
+}

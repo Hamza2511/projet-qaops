@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="QAOps | Reqres CRUD" tests="4" time="0.968">
+  <testsuite name="API-01 | GET /users?page=2" id="aa9c0384-f5e6-4608-aace-c412687f76c5" timestamp="2026-10-06T08:10:47.847Z" tests="4" failures="0" errors="0" time="0.450">
+    <testcase name="Statut 200" time="0.450" classname="Api01GetUsersPage2"/>
+    <testcase name="Content-Type JSON" time="0.450" classname="Api01GetUsersPage2"/>
+    <testcase name="Schéma JSON utilisateurs" time="0.450" classname="Api01GetUsersPage2"/>
+    <testcase name="Page et taille cohérentes" time="0.450" classname="Api01GetUsersPage2"/>
+  </testsuite>
+  <testsuite name="API-02 | POST /users" id="825c7b53-06ff-4209-8866-0b724aa511d1" timestamp="2026-10-06T08:10:47.847Z" tests="4" failures="0" errors="0" time="0.245">
+    <testcase name="Statut 201" time="0.245" classname="Api02PostUsers"/>
+    <testcase name="Content-Type JSON" time="0.245" classname="Api02PostUsers"/>
+    <testcase name="Schéma JSON réponse" time="0.245" classname="Api02PostUsers"/>
+    <testcase name="Création et identifiant" time="0.245" classname="Api02PostUsers"/>
+  </testsuite>
+  <testsuite name="API-03 | PUT /users/2" id="11a1f81f-09b6-4d29-b01d-c213b8cead6a" timestamp="2026-10-06T08:10:47.847Z" tests="4" failures="0" errors="0" time="0.166">
+    <testcase name="Statut 200" time="0.166" classname="Api03PutUsers2"/>
+    <testcase name="Content-Type JSON" time="0.166" classname="Api03PutUsers2"/>
+    <testcase name="Schéma JSON réponse" time="0.166" classname="Api03PutUsers2"/>
+    <testcase name="Mise à jour" time="0.166" classname="Api03PutUsers2"/>
+  </testsuite>
+  <testsuite name="API-04 | DELETE /users/2" id="76e8ed9d-69e3-4705-83ff-f71b890686bf" timestamp="2026-10-06T08:10:47.847Z" tests="2" failures="0" errors="0" time="0.107">
+    <testcase name="Statut 204" time="0.107" classname="Api04DeleteUsers2"/>
+    <testcase name="Corps vide" time="0.107" classname="Api04DeleteUsers2"/>
+  </testsuite>
+</testsuites>
